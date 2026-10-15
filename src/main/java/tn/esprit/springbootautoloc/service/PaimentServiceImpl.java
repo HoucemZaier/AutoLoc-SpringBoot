@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import tn.esprit.springbootautoloc.repository.PaimentRepository;
 import java.util.List;
 
+@Service
 public class PaimentServiceImpl implements PaimentService {
     @Autowired
     private PaimentRepository paimentRepository;

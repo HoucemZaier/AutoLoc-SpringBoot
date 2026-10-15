@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import tn.esprit.springbootautoloc.repository.AgenceRepository;
 import java.util.List;
 
+@Service
 public class AgenceServiceImpl implements AgenceService{
     @Autowired
     private AgenceRepository agenceRepository;
@@ -21,6 +22,7 @@ public class AgenceServiceImpl implements AgenceService{
 
     @Override
     public Agence getAgenceById(Long idAgence) {
+
         return agenceRepository.findById(idAgence).get();
     }
 

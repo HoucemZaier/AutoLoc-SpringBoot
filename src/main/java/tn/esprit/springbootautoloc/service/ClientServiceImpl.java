@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import tn.esprit.springbootautoloc.repository.ClientRepository;
 import java.util.List;
 
+@Service
 public class ClientServiceImpl implements ClientService{
     @Autowired
     private ClientRepository clientRepository;

@@ -20,8 +20,11 @@ public class Maintenance {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idMaintenance;
+    @Column(name = "date_debut", nullable = false)
     private LocalDate dateDebut;
+    @Column(name = "date_fin", nullable = false)
     private LocalDate dateFin;
+    @Column(name = "description", nullable = false)
     private String description;
 
     @ManyToOne

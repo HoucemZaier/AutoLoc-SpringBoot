@@ -6,6 +6,7 @@ import tn.esprit.springbootautoloc.repository.EquipementRepository;
 
 import java.util.List;
 
+@Service
 public class EquipementServiceImpl implements EquipementService{
     @Autowired
     private EquipementRepository equipementRepository;

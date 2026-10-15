@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import tn.esprit.springbootautoloc.repository.ContratRepository;
 import java.util.List;
 
+@Service
 public class ContratServiceImpl implements ContratService {
     @Autowired
     private ContratRepository contratRepository;

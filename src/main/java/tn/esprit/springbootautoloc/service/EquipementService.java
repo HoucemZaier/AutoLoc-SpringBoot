@@ -1,6 +1,5 @@
 package tn.esprit.springbootautoloc.service;
 import tn.esprit.springbootautoloc.models.Equipement;
-import tn.esprit.springbootautoloc.models.Paiement;
 
 import java.util.List;
 public interface EquipementService {

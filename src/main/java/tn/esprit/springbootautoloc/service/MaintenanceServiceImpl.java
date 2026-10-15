@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import tn.esprit.springbootautoloc.repository.MaintenanceRepository;
 import java.util.List;
 
+@Service
 public class MaintenanceServiceImpl implements MaintenanceService {
     @Autowired
     private MaintenanceRepository maintenanceRepository;

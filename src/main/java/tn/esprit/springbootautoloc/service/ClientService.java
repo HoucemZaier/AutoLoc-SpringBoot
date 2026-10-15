@@ -8,4 +8,5 @@ public interface ClientService {
     void deleteClient(Long idClient);
     Client getCLientById(Long idClient);
     List<Client> getClient();
+
 }

@@ -21,7 +21,9 @@ public class Reservation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idReservation;
+    @Column(name = "date_debut", nullable = false)
     private LocalDate dateDebut;
+    @Column(name = "date_fin", nullable = false)
     private LocalDate dateFin;
     @Enumerated(EnumType.STRING)
     private StatusReservation status;

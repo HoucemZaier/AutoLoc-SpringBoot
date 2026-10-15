@@ -21,6 +21,7 @@ public class Equipement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idEquipement;
+    @Column(name = "libelle", nullable = false)
     private String libelle;
 
     @ManyToMany(mappedBy = "equipements")

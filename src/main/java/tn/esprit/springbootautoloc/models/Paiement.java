@@ -20,7 +20,9 @@ public class Paiement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idPaiement;
+    @Column(name = "montant", nullable = false)
     private BigDecimal montant;
+    @Column(name = "date_paiement", nullable = false)
     private LocalDate datePaiement;
     @Enumerated(EnumType.STRING)
     private ModePaiement modePaiement;

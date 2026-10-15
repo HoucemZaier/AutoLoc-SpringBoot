@@ -7,6 +7,7 @@ import tn.esprit.springbootautoloc.repository.VehiculeRepository;
 
 
 import java.util.List;
+@Service
 
 public class VehiculeServiceImpl implements VehiculeService{
     @Autowired
